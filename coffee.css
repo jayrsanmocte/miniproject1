@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+header {
+    background: url(background.jpg)fixed center;
+    background-image: url(background1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+.navbar-nav {
+    margin-top: 50px;
+    position: fixed;
+    background: rgb(10, 10, 10);
+    padding: 13px 15px;
+    font-weight: inherit;
+    color: rgb(77, 76, 76);
+    margin-top: 100px;
+    border-radius: 10px;
+}
+    .navbar-nav a {
+    color:white
+    }
+.navbar-nav a:hover {
+    color: red;
+}
+.border1 {
+    background-color: rgb(27, 25, 25);
+    background-image: url(background3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.b1 { 
+    background-color: transparent;
+    border-radius: 50px;
+}
+    
+.card {
+    margin:10px;
+}
+div h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 155, 5);  
+
+
+    }
+    
+.border2 {
+background-color: rgb(122, 119, 119);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
