@@ -15,8 +15,8 @@ header {
 .navbar-nav {
     margin-top: 50px;
     position: fixed;
-    background: rgb(73, 48, 2);
-    padding: 13px 15px;
+    background: rgb(73, 41, 3);
+    
     font-weight: inherit;
     color: rgb(77, 76, 76);
     margin-top: 100px;
@@ -29,7 +29,7 @@ header {
     color: red;
 }
 .border1 {
-    background-color: rgb(27, 25, 25);
+    background-color: rgb(247, 160, 0);
     background-image: url(asset/background3.jpg);
     height: 100vh;
     background-size: cover;
@@ -46,7 +46,9 @@ header {
 }
 div h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 155, 5);  
+    color: rgb(163, 76, 4);  
+    background-color: bisque;
+    
 
 
     }
@@ -54,7 +56,16 @@ div h1 {
 .border2 {
 background-color: rgb(122, 119, 119);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-radius: 10px;
 }
 
 
 
+.group {
+    background-color: rgb(73, 41, 3);
+}
+
+.carousel1{
+    background-color:rgb(73, 41, 3) ;
+   
+}
