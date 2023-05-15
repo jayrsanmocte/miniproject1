@@ -3,8 +3,8 @@
     padding: 0px;
 } 
 header {
-    background: url(background.jpg)fixed center;
-    background-image: url(background1.jpg);
+    background: url(asset/background1.jpg)fixed center;
+    background-image: url(asset/background1.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ header {
 }
 .border1 {
     background-color: rgb(27, 25, 25);
-    background-image: url(background3.jpg);
+    background-image: url(asset/background3.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
