@@ -47,7 +47,7 @@ header {
 div h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(163, 76, 4);  
-    background-color: bisque;
+    background-color: rgb(211, 165, 108);
     
 
 
@@ -68,4 +68,8 @@ border-radius: 10px;
 .carousel1{
     background-color:rgb(73, 41, 3) ;
    
+}
+
+.spanding {
+    background-color: rgb(73, 41, 3) ;;
 }
