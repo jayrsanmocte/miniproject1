@@ -48,15 +48,15 @@ div h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(163, 76, 4);  
     background-color: rgb(211, 165, 108);
-    
+    border-style: dashed;
+    border-radius: 10px;
 
-
-    }
+ }
     
 .border2 {
 background-color: rgb(122, 119, 119);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-border-radius: 10px;
+
 }
 
 
@@ -67,7 +67,6 @@ border-radius: 10px;
 
 .carousel1{
     background-color:rgb(73, 41, 3) ;
-   
 }
 
 .spanding {
