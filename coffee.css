@@ -3,8 +3,8 @@
     padding: 0px;
 } 
 header {
-    background: url(asset/background1.jpg)fixed center;
-    background-image: url(asset/background1.jpg);
+    background: url(asset/background4.jpg)fixed center;
+    background-image: url(asset/background4.jpg);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +15,7 @@ header {
 .navbar-nav {
     margin-top: 50px;
     position: fixed;
-    background: rgb(10, 10, 10);
+    background: rgb(73, 48, 2);
     padding: 13px 15px;
     font-weight: inherit;
     color: rgb(77, 76, 76);
@@ -55,7 +55,6 @@ div h1 {
 background-color: rgb(122, 119, 119);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 
 
