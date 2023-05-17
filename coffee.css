@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Mogra&display=swap);
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,6 +12,8 @@ header {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    text-align: center;
+    
     
     
 }
@@ -23,19 +28,32 @@ header {
     border-radius: 10px;
 }
     .navbar-nav a {
-    color:white
+    color:white ;
     }
 .navbar-nav a:hover {
     color: red;
 }
 .border1 {
-    background-color: rgb(247, 160, 0);
+    background-color: rgb(235, 190, 108);
     background-image: url(asset/background3.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
-
 }
+.border1 .card {
+    background-color: rgb(252, 234, 186);
+}
+.border1 .btn {
+    color: rgb(20, 20, 20);
+    background-color: rgb(255, 145, 0);
+   
+}
+.border1 .btn:hover {
+    color: rgb(236, 155, 3) ;
+    background-color: rgb(121, 57, 5);
+}
+
+
 .b1 { 
     background-color: transparent;
     border-radius: 50px;
@@ -45,11 +63,13 @@ header {
     margin:10px;
 }
 div h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mogra', cursive, Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(163, 76, 4);  
     background-color: rgb(211, 165, 108);
-    border-style: dashed;
-    border-radius: 10px;
+    border-style:ridge ;
+    border-radius: 20px;
+    padding-top: 5px;
+    
 
  }
     
@@ -71,4 +91,27 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .spanding {
     background-color: rgb(73, 41, 3) ;;
+}
+
+.aboutus {
+text-align: center;
+background-color: rgb(235, 208, 178);
+border: 30px solid rgb(182, 139, 91);
+width: 100vh; 
+margin: auto;
+padding: 20px 20px;
+border-radius: 20px;
+border-style:ridge;
+
+}
+
+.logo2 {
+    position:absolute; 
+    left:1300px;
+    padding-top :110px ;
+    padding-left: 30px;
+}
+
+.backto {
+    padding-left: 120px;
 }
