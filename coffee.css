@@ -115,3 +115,7 @@ border-style:ridge;
 .backto {
     padding-left: 120px;
 }
+
+.navbar-nav {
+    z-index: 2;
+}
