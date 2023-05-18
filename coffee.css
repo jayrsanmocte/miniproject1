@@ -4,7 +4,9 @@
 * {
     margin: 0px;
     padding: 0px;
-} 
+   
+}
+
 header {
     background: url(asset/background4.jpg)fixed center;
     background-image: url(asset/background4.jpg);
@@ -13,8 +15,6 @@ header {
     background-attachment: fixed;
     background-position: center;
     text-align: center;
-    
-    
     
 }
 .navbar-nav {
@@ -108,7 +108,7 @@ border-style:ridge;
 
 .logo2 {
     position:absolute; 
-    left:1300px;
+    right:1400px;
     padding-top :110px ;
     padding-left: 30px;
 }
@@ -120,3 +120,8 @@ border-style:ridge;
 .navbar-nav {
     z-index: 3;
 }
+
+
+
+
+
