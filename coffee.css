@@ -61,6 +61,7 @@ header {
     
 .card {
     margin:10px;
+    z-index: 2;
 }
 div h1 {
     font-family: 'Mogra', cursive, Tahoma, Geneva, Verdana, sans-serif;
