@@ -32,13 +32,13 @@ header {
     }
 .navbar-nav a:hover {
     color: red;
-}
+/* }
 .border1 {
     background-color: rgb(235, 190, 108);
     background-image: url(asset/background3.jpg);
     height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 .border1 .card {
     background-color: rgb(252, 234, 186);
@@ -122,6 +122,23 @@ border-style:ridge;
 }
 
 
+.checkout {
+        color: rgb(233, 11, 11);
+        background-color: rgb(255, 145, 0);
+        width: 140px;
+        padding:1px;
+        border-radius: 13px;
 
+       
+}
+.checkout:hover {
+        color: rgb(121, 57, 5) ;
+        background-color: rgb(255, 117, 4);
+ }
+.checkout3 {
+    font-family: 'Mogra', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(158, 89, 4);
+}
 
-
+  
+  
