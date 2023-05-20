@@ -32,25 +32,29 @@ header {
     }
 .navbar-nav a:hover {
     color: red;
-/* }
-.border1 {
-    background-color: rgb(235, 190, 108);
-    background-image: url(asset/background3.jpg);
-    height: 100vh;
+}
+.src {
+    /* background-color: rgb(235, 190, 108);
+    background-image: url(asset/background3.jpg); */
+    height: 1700px;
+    width: 1300px;
     background-size: cover;
-    background-position: center; */
+    background-position: center;
+    position: absolute;
+    opacity: .5;
+    
 }
 .border1 .card {
     background-color: rgb(252, 234, 186);
 }
 .border1 .btn {
-    color: rgb(20, 20, 20);
+    color: rgb(252, 248, 248);
     background-color: rgb(255, 145, 0);
    
 }
 .border1 .btn:hover {
     color: rgb(236, 155, 3) ;
-    background-color: rgb(121, 57, 5);
+    background-color: rgb(253, 3, 24);
 }
 
 
