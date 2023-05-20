@@ -139,6 +139,16 @@ border-style:ridge;
     font-family: 'Mogra', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(158, 89, 4);
 }
-
+.card{
+    
+        margin-left: 75px;
+        margin-right: 30px;
+        width: 100vh;
+        position: absolute;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        text-align: center;
+}
   
   
