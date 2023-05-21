@@ -250,9 +250,15 @@ border-style:ridge;
  @media (max-width: 375px)
  {
 .container99 {
-  height: 200vh;
+  height: 230vh;
 }
  }
+@media (max-width: 360px)
+{
+.container99 {
+ height: 220vh;
+}
+}
  @media (max-width: 320px)
  {
 .container99 {
