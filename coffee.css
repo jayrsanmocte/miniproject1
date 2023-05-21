@@ -34,11 +34,11 @@ header {
     color: red;
 }
 .src {
-    /* background-color: rgb(235, 190, 108);
-    background-image: url(asset/background3.jpg); */
+    background-color: rgb(235, 190, 108);
+    background-image: url(asset/background3.jpg);
     height: 1700px;
     width: 1300px;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     position: absolute;
     opacity: .5;
@@ -155,4 +155,18 @@ border-style:ridge;
         text-align: center;
 }
   
-  
+@media screen and (min-width: 500px) {
+    .src {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    .src {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 300px) {
+    .src {
+      display: none;
+    }
+  }
