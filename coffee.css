@@ -36,9 +36,9 @@ header {
 .src {
     background-color: rgb(235, 190, 108);
     background-image: url(asset/background3.jpg);
-    height: 1700px;
+    height: 1800px;
     width: 1300px;
-    background-size: auto;
+    background-size:contain;
     background-position: center;
     position: absolute;
     opacity: .5;
@@ -99,14 +99,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .aboutus {
-text-align: center;
+
 background-color: rgb(235, 208, 178);
 border: 30px solid rgb(182, 139, 91);
 width: 100vh; 
 margin: auto;
+margin-top: 50px;
+margin-bottom: 20px;
 padding: 20px 20px;
-border-radius: 20px;
+border-radius: 1    0px;
 border-style:ridge;
+
+
 
 }
 
@@ -155,18 +159,59 @@ border-style:ridge;
         text-align: center;
 }
   
-@media screen and (min-width: 500px) {
-    .src {
-      display: none;
+/* @media screen and (min-width: 500px) {
+    .menulogo1 {
+      visibility: hidden;
     }
   }
   @media screen and (min-width: 400px) {
-    .src {
-      display: none;
+    .menulogo1 {
+        visibility: hidden;
     }
   }
   @media screen and (min-width: 300px) {
-    .src {
-      display: none;
+    .menulogo1 {
+        visibility: hidden;
+    
     }
+  } */
+  .boxcheck1 {
+    display: block;
+    padding-right: 10px;
+  }
+
+  .boxcheck3 {
+    display: block;
+    padding-left: 26px;
+  }
+
+  .boxcheck4 {
+    display: block;
+    padding-left: 5px;
+  }
+  .boxcheck5 {
+    display: block;
+    padding-left: 10px;
+  }
+  .boxcheck6 {
+    display: block;
+    padding-left: 10px;
+  }
+  .boxcheck7 {
+    display: block;
+    padding-left: 5px;
+  }
+  .boxcheck8 {
+    display: block;
+    padding-right: 20px;
+  }
+  .boxcheck9 {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .move{
+    margin-left: 300px;
+        margin-right: 30px;
+
   }
