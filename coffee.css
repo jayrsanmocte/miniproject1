@@ -6,6 +6,9 @@
     padding: 0px;
    
 }
+html,body {
+  overflow-x: hidden;
+}
 
 header {
     background: url(asset/background4.jpg)fixed center;
@@ -36,12 +39,14 @@ header {
 .src {
     background-color: rgb(235, 190, 108);
     background-image: url(asset/background3.jpg);
-    height: 1800px;
-    width: 1300px;
+    height: 100%;
+    width: 100%;
     background-size:contain;
     background-position: center;
     position: absolute;
     opacity: .5;
+    background-size:cover;
+    background-repeat: no-repeat;
     
 }
 .border1 .card {
@@ -92,7 +97,10 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 .carousel1{
     background-color:rgb(73, 41, 3) ;
+   padding-top: 50px;
 }
+
+
 
 .spanding {
     background-color: rgb(73, 41, 3) ;;
@@ -102,12 +110,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 background-color: rgb(235, 208, 178);
 border: 30px solid rgb(182, 139, 91);
-width: 100vh; 
-margin: auto;
+/* width: 100vh;  */
+/* margin: auto; */
 margin-top: 50px;
 margin-bottom: 20px;
-padding: 20px 20px;
-border-radius: 1    0px;
+padding: 20px;
+border-radius: 10px;
 border-style:ridge;
 
 
@@ -149,69 +157,165 @@ border-style:ridge;
 }
 .card{
     
-        margin-left: 75px;
-        margin-right: 30px;
-        width: 100vh;
-        position: absolute;
+        /* margin-left: 75px;
+        margin-right: 30px; */
+        /* width: 100vh; */
+        /* position: absolute; */
         display: block;
         margin-top: 50px;
         margin-bottom: 150px;
         text-align: center;
 }
   
-/* @media screen and (min-width: 500px) {
-    .menulogo1 {
-      visibility: hidden;
-    }
-  }
-  @media screen and (min-width: 400px) {
-    .menulogo1 {
-        visibility: hidden;
-    }
-  }
-  @media screen and (min-width: 300px) {
-    .menulogo1 {
-        visibility: hidden;
-    
-    }
-  } */
-  .boxcheck1 {
-    display: block;
-    padding-right: 10px;
-  }
 
-  .boxcheck3 {
-    display: block;
-    padding-left: 26px;
-  }
-
-  .boxcheck4 {
-    display: block;
-    padding-left: 5px;
-  }
-  .boxcheck5 {
-    display: block;
-    padding-left: 10px;
-  }
-  .boxcheck6 {
-    display: block;
-    padding-left: 10px;
-  }
-  .boxcheck7 {
-    display: block;
-    padding-left: 5px;
-  }
-  .boxcheck8 {
-    display: block;
-    padding-right: 20px;
-  }
-  .boxcheck9 {
-    display: block;
-    padding-left: 10px;
-  }
+  */
 
   .move{
     margin-left: 300px;
         margin-right: 30px;
 
   }
+.border1 {
+  background-image: url(asset/background3.jpg);
+  background-size: cover;
+}
+
+@media (max-width:1435px) 
+{
+  .border1  {
+    background-image: none;
+  }
+
+}
+  
+.imagerapper {
+  width: 100%;
+  height: 200px;
+}
+
+@media(max-width:768px)
+{
+  .logo9 {
+    width: 70%;
+    height: 300px;
+  }
+}
+.container99{
+  background: url(asset/background4.jpg)fixed center;
+  background-image: url(asset/background4.jpg);
+  height: 120vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+@media (max-width: 1629px)
+ {
+.container99 {
+  height: 140vh;
+}
+ }
+
+@media (max-width: 1440px)
+ {
+.container99 {
+  height: 150vh;
+}
+ }
+ @media (max-width: 1199px)
+ {
+.container99 {
+  height: 170vh;
+}
+ }
+ @media (max-width: 1024px)
+ {
+.container99 {
+  height: 170vh;
+}
+ }
+ @media (max-width: 768px)
+ {
+.container99 {
+  height: 130vh;
+}
+ }
+ @media (max-width: 425px)
+ {
+.container99 {
+  height: 180vh;
+}
+ }
+ @media (max-width: 375px)
+ {
+.container99 {
+  height: 190vh;
+}
+ }
+ @media (max-width: 320px)
+ {
+.container99 {
+  height: 200vh;
+}
+ }
+ 
+ .container100{
+  background: url(asset/background4.jpg)fixed center;
+  background-image: url(asset/background4.jpg);
+  height: 120vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+ }
+
+ @media (max-width: 1629px)
+ {
+.container100 {
+  height: 140vh;
+}
+ }
+
+@media (max-width: 1440px)
+ {
+.container100 {
+  height: 150vh;
+}
+ }
+ @media (max-width: 1199px)
+ {
+.container100 {
+  height: 170vh;
+}
+ }
+ @media (max-width: 1024px)
+ {
+.container100 {
+  height: 170vh;
+}
+ }
+ @media (max-width: 768px)
+ {
+.container100 {
+  height: 130vh;
+}
+ }
+ @media (max-width: 425px)
+ {
+.container100 {
+  height: 180vh;
+}
+ }
+ @media (max-width: 375px)
+ {
+.container100 {
+  height: 190vh;
+}
+ }
+ @media (max-width: 320px)
+ {
+.container100 {
+  height: 250vh;
+}
+ }
